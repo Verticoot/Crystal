@@ -1,3 +1,7 @@
+ul {
+    
+}
+
 header {
     display: flex;
     justify-content: start;
@@ -28,5 +32,19 @@ aside {
 }
 
 #title {
+
+}
+
+.group {
+
+}
+
+.group-title {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+
+}
+
+.resource-link {
 
 }
