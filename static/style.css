@@ -1,5 +1,18 @@
-head {
+header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
 
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 article {
@@ -7,9 +20,13 @@ article {
 }
 
 aside {
-    
+
 }
 
-footer {
+#logo {
+    width: 10%;
+}
+
+#title {
 
 }
