@@ -1,26 +1,41 @@
+body {
+    margin: 0;
+}
+
 ul {
-    
+
 }
 
 header {
     display: flex;
     justify-content: start;
     align-items: center;
+
+    background-color: blanchedalmond;
 }
 
 .content {
     display: flex;
     justify-content: space-between;
+
+    background-color: aquamarine;
 }
 
 footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    background-color: aqua;
 }
 
 article {
+    display: flex;
+    justify-content: space-around;
+}
 
+section {
+    margin: 10px;
 }
 
 aside {
