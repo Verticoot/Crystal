@@ -1,9 +1,7 @@
 body {
     margin: 0;
-}
-
-ul {
-
+    display: grid;
+    min-height: 100vh;
 }
 
 header {
@@ -60,6 +58,10 @@ aside {
 
 }
 
-.resource-link {
+.list {
+    display: grid;
+}
 
+.resource-link {
+    display: block;
 }
