@@ -1,7 +1,9 @@
 body {
     margin: 0;
-    display: grid;
     min-height: 100vh;
+
+    display: grid;
+    grid-template: 20% 1fr 20% / 1fr;
 }
 
 header {
@@ -13,10 +15,8 @@ header {
 }
 
 .content {
-    display: flex;
-    justify-content: space-between;
-
-    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 15%;
 }
 
 footer {
@@ -28,8 +28,10 @@ footer {
 }
 
 article {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: aquamarine;
 }
 
 section {
@@ -37,11 +39,11 @@ section {
 }
 
 aside {
-
+    background-color: blueviolet;
 }
 
 #logo {
-    width: 10%;
+    width: 10px;
 }
 
 #title {
