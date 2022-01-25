@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    display: grid;
+    grid-template: 20% 1fr 20% / 1fr;
+}
+
+header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    background-color: black;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 10%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: black;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: white;
+}
+
+section {
+    margin: 7%;
+    padding: 5%;
+    padding-top: 2%;
+
+    border-left: 1px solid black;
+}
+
+.section-title {
+    margin: 0;
+}
+
+#description {
+    margin-right: 3.5%;
+}
+
+#objective {
+    margin-left: 3.5%;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: lightgray;
+}
+
+#page-links {
+    margin: 10%;
+}
+
+.page-link {
+    margin: 2%;
+
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    color: grey;
+    text-decoration: none;
+}
+
+#logo {
+    width: auto;
+}
+
+#title {
+    font-family: 'Constantia';
+    font-size: 100px;
+
+    color: white;
+}
+
+.group {
+
+}
+
+.group-title {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+
+    color: white;
+}
+
+.list {
+    display: grid;
+}
+
+.resource-link {
+    display: block;
+
+    font-family: 'Calibri';
+    font-size: 20px;
+    color: grey;
+    text-decoration: none;
+}
